@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios Tp</h1>
+    </header>
+    <main>
+        <h3>¿Qué atributo se utiliza para especificar la URL a la que se enviarán los datos del formulario? a) method b)
+            action c) target d) url</h3>
+        <p>Se usa la opcion "b"</p>
+
+        <h3>¿Cuál es el atributo que se utiliza para especificar el tipo de datos que se espera en un campo de entrada?
+            a) data-type b) input-type c) type d) data</h3>
+        <p>Se usa el atributo "type"</p>
+
+        <h3>¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar direcciones de correo
+            electrónico? a) text b) email c) mail d) input</h3>
+        <p>Se usa "email"</p>
+
+        <h3>¿Cuál es el elemento HTML que se utiliza para asociar un texto descriptivo con un campo de entrada en un
+            formulario? a) <description> b) <info> c) <placeholder> d) <label></label></h3>
+        <p>Se usa "label"</p>
+
+        <h3>¿Cuál de las siguientes opciones es la etiqueta correcta para crear un botón de envío en un formulario? a)
+            "input type="submit" b) "button type="submit" c) "btn" d) "submit>/submit" </h3>
+        <p>Se usa "input type="submit"</p>
+
+        <h3>¿Cuál de los siguientes atributos se utiliza para hacer que un campo de entrada sea obligatorio en un
+            formulario? a) required b) mandatory c) validate d) mandatoryfield</h3>
+        <p>Se usa "required"</p>
+
+        <h3>¿Cuál de los siguientes elementos HTML se utiliza para crear una lista desplegable en un formulario? a)
+            "list" b) "dropdown" c) "select" d) "input type="list"></h3>
+        <p>Se usa "select"</p>
+
+        <h3>¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar un apellido? a) text b) email c)
+            mail d) input</h3>
+        <p>Se usa "text"</p>
+
+        <h3>¿Qué atributo se utiliza para definir un valor predeterminado en un campo de entrada de un formulario? a)
+            value b) default c) preset d) initial</h3>
+        <p>Se usa "default"</p>
+        
+        <h3>¿Qué son los métodos / verbos de petición HTTP? Dar ejemplos. Bibliografía MDN</h3>
+        <p>Un conjunto de metodos de peticion es un indicativo para realizar una accion a un recurso determinado, ejemplo:</p>
+        "form action="" method="post" <-define destino y metodos
+
+        <h3>¿Qué son los códigos de estado de respuestas HTTP? Realizar una tabla con su clasificación. Bibliografía MDN</h3>
+
+        <table>
+            <tr>
+                <th>Respuesta</th>
+                <th>|Nombre|</th>
+                <th>|Significado</th>
+            </tr>    
+            <tr>
+                <td>100</td>
+                <td>Continue</td>
+                <td>todo va bien</td>   
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Switching <br> protocol</td>
+                <td>El servidor acepta <br> el cambio de protocolo</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>processing</td>    
+                <td>esta procesando <br> la solicitud</td>    
+            </tr>
+            <tr>
+                <td>103</td>    
+                <td>early hints</td>    
+                <td>para pre-cargar <br> recursos</td>    
+            </tr>
+            <tr>
+                <td>200</td>    
+                <td>ok</td>    
+                <td>exito</td>    
+            </tr>   
+            <tr>
+                <td>201</td>    
+                <td>created</td>    
+                <td>se creo <br> un recurso</td>
+            </tr>
+            <tr>
+                <td>202</td>    
+                <td>accepted</td>    
+                <td>peticion aceptada</td>    
+            </tr>
+            <tr>    
+                <td>203</td>    
+                <td>non authoritative <br> information</td>
+                <td>se completo, <br> pero no se obtuvo <br> el contenido</td>
+            </tr>
+            <tr>
+                <td>204</td>
+                <td>no content</td>
+                <td>la peticion se completo <br> pero no hay contenido</td>
+            </tr>
+            <tr>
+                <td>205</td>
+                <td>reset content</td>
+                <td>se completo pero <br> ademas de no haber contenido <br> los datos son volatiles</td>
+            </tr>
+            <tr>
+                <td>206</td>
+                <td>partial content</td>
+                <td>se mostrara parcialmente <br> el contenido</td>
+            </tr>
+            <tr>
+                <td>207</td>
+                <td>multi status</td>
+                <td>un multi-estado de un archivo xlm</td>
+            </tr>
+            <tr>
+                <td>208</td>
+                <td>multi status</td>
+                <td>el listado de elementos se notifico</td>
+            </tr>
+            <tr>
+                <td>226</td>
+                <td>IM used</td>
+                <td>el servidor <br> ha cumplido una <br> peticion get</td>
+            </tr>
+            <tr>
+                <td>300</td>
+                <td>multiple choice</td>
+                <td>mas de una posible respuesta a la solicitud</td>
+            </tr>
+            <tr>
+                <td>301</td>
+                <td>moved permanently</td>
+                <td>la url solicitada fue cambiada</td>
+            </tr>
+            <tr>
+                <td>302</td>
+                <td>found</td>
+                <td>url cambiada temporalmente</td>
+            </tr>
+            <tr>
+                <td>303</td>
+                <td>see other</td>
+                <td>redireccion a un nuevo recurso</td>
+            </tr>
+            <tr>
+                <td>304</td>
+                <td>not modified</td>
+                <td>puede usar una version almacenada <br> en el cache </td>
+            </tr>
+            <tr>
+                <td>305</td>
+                <td>use proxy</td>
+                <td>fue definida en una version previa del protocolo HTTP</td>
+            </tr>
+            <tr>
+                <td>306</td>
+                <td>unused</td>
+                <td>no se usa mas, se usaba en versiones anteriores <br> de HTTP</td>
+            </tr>
+            <tr>
+                <td>307</td>
+                <td>temporary redirect</td>
+                <td>redirige a otra url que tenga el recurso</td>
+            </tr>
+            <tr>
+                <td>308</td>
+                <td>permanent redirect</td>
+                <td>significa que el recurso esta <br> en otra url</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>bad request</td>
+                <td>el servidor no puedo interpretar la solicitud</td>
+            </tr>
+            <tr>
+                <td>401</td>
+                <td>unauthorized</td>
+                <td>es necesario autenticar</td>
+            </tr>
+            <tr>
+                <td>402</td>
+                <td>payment required</td>
+                <td>se penso para pagos digitales pero no se usa</td>
+            </tr>
+            <tr>
+                <td>403</td>
+                <td>forbidden</td>
+                <td>no posee permisos necesarios para cierto contenido</td>
+            </tr>
+            <tr>
+                <td>404</td>
+                <td>not found</td>
+                <td>no se encontro el archivo solicitado</td>
+            </tr>
+            <tr>
+                <td>405</td>
+                <td>method not allowed</td>
+                <td>el metodo solicitado existe, pero se deshabilito</td>
+            </tr>
+            <tr>
+                <td>406</td>
+                <td>not acceptable</td>
+                <td>no se encuentra contenido seguido por el criterio</td>
+            </tr>
+            <tr>
+                <td>407</td>
+                <td>proxy authentication required</td>
+                <td>similar al 401, pero la autenticacion <br> se tiene que hacer desde un proxy</td>
+            </tr>
+            <tr>
+                <td>408</td>
+                <td>request timeout</td>
+                <td>conexion inactiva</td>
+            </tr>
+            <tr>
+                <td>409</td>
+                <td>conflict</td>
+                <td>conflicto con el estado actual del servidor</td>
+            </tr>
+            <tr>
+                <td>410</td>
+                <td>gone</td>
+                <td>el contenido fue borrado</td>
+            </tr>
+            <tr>
+                <td>411</td>
+                <td>lenght required</td>
+                <td>el campo de encabezado no esta definido</td>
+            </tr>
+            <tr>
+                <td>412</td>
+                <td>pre-condition failed</td>
+                <td>el servidor no cumple con las condiciones del encabezado</td>
+            </tr>
+            <tr>
+                <td>413</td>
+                <td>payload too large</td>
+                <td>la peticion es mas larga que los limites del servidor</td>
+            </tr>
+            <tr>
+                <td>414</td>
+                <td>url too long</td>
+                <td>la url solicitada es mas larga de lo que el servidor reconoce</td>
+            </tr>
+            <tr>
+                <td>415</td>
+                <td>unsupported media type</td>
+                <td>el formato multimedia no es compatible</td>
+            </tr>
+            <tr>
+                <td>416</td>
+                <td>request range not satisfiable</td>
+                <td>el rango especificado no cumple</td>
+            </tr>
+            <tr>
+                <td>417</td>
+                <td>expectation failed</td>
+                <td>la expectativa indicada por el campo de encabezado no puede ser cumplida por el servidor</td>
+            </tr>
+            <tr>
+                <td>418</td>
+                <td>i'm a teapot</td>
+                <td>el servidor se rehusa a intentar hacer café con una tetera</td>
+            </tr>
+            <tr>
+                <td>421</td>
+                <td>misdirected request</td>
+                <td>la peticion se envio a un servidor incapaz de producir respuesta</td>
+            </tr>
+            <tr>
+                <td>422</td>
+                <td>unprocessable entity</td>
+                <td>la peticion estaba bien pero no se pudo seguir por errores semanticos</td>
+            </tr>
+            <tr>
+                <td>423</td>
+                <td>locked</td>
+                <td>el recurso esta bloqueado</td>
+            </tr>
+            <tr>
+                <td>424</td>
+                <td>failed dependency</td>
+                <td>la peticion fallo debido a una falla de peticion previa</td>
+            </tr>
+            <tr>
+                <td>426</td>
+                <td>upgrade required</td>
+                <td>necesario actualizar el protocolo</td>
+            </tr>
+            <tr>
+                <td>428</td>
+                <td>pre-condition required</td>
+                <td>el servidor requiere que la solicitud sea condicional</td>
+            </tr>
+            <tr>
+                <td>429</td>
+                <td>too many requests</td>
+                <td>el usuario envio demasiadas solicitudes</td>
+            </tr>
+            <tr>
+                <td>431</td>
+                <td>request header fields too large</td>
+                <td>el servidor no va a procesar la solicitud por el largo del encabezado</td>
+            </tr>
+            <tr>
+                <td>451</td>
+                <td>unavailable for legal reasons</td>
+                <td>el usuario solicito un recurso ilegal</td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>internal server error</td>
+                <td>el servidor encontro una situacion que no sabe solucionar</td>
+            </tr>
+            <tr>
+                <td>501</td>
+                <td>not implemented</td>
+                <td>el metodo solicitado no esta soportado por el servidor</td>
+            </tr>
+            <tr>
+                <td>502</td>
+                <td>bad gateway</td>
+                <td>el servidor obtuvo una respuesta invalida mientra trabajaba <br> con una puerta de enlace</td>
+            </tr>
+            <tr>
+                <td>503</td>
+                <td>service unavailable</td>
+                <td>el servidor no esta listo para manejar la peticion</td>
+            </tr>
+            <tr>
+                <td>504</td>
+                <td>gateway timeout</td>
+                <td>el servidor trabaja como puerta de enlace y no puede obtener una respuesta a tiempo</td>
+            </tr>
+            <tr>
+                <td>505</td>
+                <td>http version not supported</td>
+                <td>la version de http usada no esta soportada</td>
+            </tr>
+            <tr>
+                <td>506</td>
+                <td>variant also negotiaties</td>
+                <td>el servidor tiene un error de configuracion interna</td>
+            </tr>
+            <tr>
+                <td>507</td>
+                <td>insufficient storage</td>
+                <td>el servidor esta mal configurado internamente</td>
+            </tr>
+            <tr>
+                <td>508</td>
+                <td>loop detected</td>
+                <td>el servidor detecto un ciclo infinito mientras procesaba la solicitud</td>
+            </tr>
+            <tr>
+                <td>510</td>
+                <td>not extended</td>
+                <td>extenciones adicionales requeridas</td>
+            </tr>
+            <tr>
+                <td>511</td>
+                <td>network authentication required</td>
+                <td>el cliente necesita autenticar</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>Bruno Godoy ©</p>
+    </footer>
+</body>
+
+</html>
